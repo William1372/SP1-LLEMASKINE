@@ -1,4 +1,5 @@
 class Symboler {
+
 // Instansvariabler til klassen, der repræsenterer et symbol
     PImage billede; // Billedet af symbolet
     String filnavn; // Filnavnet på symbolet
@@ -41,6 +42,8 @@ Symboler tilfældigtSymbol() {
             return new Symboler(symbolFilnavne[i]); // Returner symbolet
         }
     }
+
 // Som en slags sikkerhedsforanstaltning, returner det første symbol, hvis ingen matches (burde aldrig ske og er ikke sket endnu :-))
     return new Symboler(symbolFilnavne[0]);
+
 }
