@@ -1,12 +1,15 @@
 void tjekVinder() { 
+
 // Variabel til gevinst-udgangspunktet
     int gevinst = 0;
+
 // Hvis man får 3x bonus-symboler, skal det give 10.000x din indsats tilbage
     if (symbol1. getFilnavn().equals("bonus.png") && 
         symbol2.getFilnavn().equals("bonus.png") && 
         symbol3.getFilnavn().equals("bonus.png")) {
         gevinst = (int)(indsats * 10000);
     } 
+
 // Hvis man får 2x bonus-symboler (uanset hvor), skal det give 20x din indsats tilbage
     else if ((symbol1.getFilnavn().equals("bonus.png") && symbol2.getFilnavn().equals("bonus.png")) || 
              (symbol1.getFilnavn().equals("bonus.png") && symbol3.getFilnavn().equals("bonus.png")) || 
@@ -44,12 +47,14 @@ void tjekVinder() {
             gevinst = (int)(indsats * 9);
         }
     }
+
 // Hvis gevinsten er over den fastsatte værdi (0), skal den tilføje gevinsten til saldoen, vise 'gevinstBesked'en og afspille 'winSound'-lyden
     if (gevinst > 0) {
         saldo += gevinst;
         derErGevinst = true;
         gevinstBesked = "Du vandt " + gevinst + " DKK";
         winSound.play();
+
 // Hvis ikke der var gevinst, skal 'gevinstBesked'en forblive en tom String
     } else {
         gevinstBesked = "";
