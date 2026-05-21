@@ -1,3 +1,8 @@
+<img width="2542" height="1422" alt="Skærmoptagelse 2026-05-21 kl  15 05 19 (1)" src="https://github.com/user-attachments/assets/3b423ea9-d9b5-4e62-9757-babd6e89ed16" />
+
+
+
+
 ***** Hej! Velkommen til Williams SP1-projekt *****
 
                  "SP1-LLEMASKINE"
